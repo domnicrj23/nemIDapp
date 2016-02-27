@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+</head>
+<body>
+<div ng-app="nemID" ng-controller="getNemKey">
+    <label> #: <input ng-model="key" ng-minlength="4"></label>
+    <p>key: {{value()}}</p>
+</div>
+
+<script src="app.js"></script>
+<script src="controller.js"></script>
+</body>
+</html>
